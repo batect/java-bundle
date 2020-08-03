@@ -3,9 +3,7 @@
 [![Build Status](https://img.shields.io/github/workflow/status/batect/java-bundle/Pipeline/master)](https://github.com/batect/java-bundle/actions?query=workflow%3APipeline+branch%3Amaster)
 [![License](https://img.shields.io/github/license/batect/java-bundle.svg)](https://opensource.org/licenses/Apache-2.0)
 
-A Java bundle for [batect](https://batect.dev).
-
-Provides a container with OpenJDK and sensible defaults for use with Gradle.
+A bundle for [batect](https://batect.dev) that provides a development container for JVM-based languages that use Gradle, with sensible default configuration.
 
 ## Usage
 

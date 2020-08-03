@@ -1,0 +1,9 @@
+tasks:
+  run:
+    description: Run the sample application
+    run:
+      container: java-build-env
+      command: ./gradlew run
+
+include:
+  - ../../batect-bundle.yml

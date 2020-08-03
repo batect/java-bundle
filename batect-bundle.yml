@@ -2,12 +2,15 @@ containers:
   java-build-env:
     image: adoptopenjdk:14.0.2_8-jdk-hotspot
     volumes:
-      - local: .
+      - local: <{batect.project_directory}
         container: /code
         options: cached
       - type: cache
         name: gradle-cache
-        container: /root/.gradle
+        container: /home/container-user/.gradle
     working_directory: /code
     environment:
       GRADLE_OPTS: -Dorg.gradle.daemon=false
+    run_as_current_user:
+      enabled: true
+      home_directory: /home/container-user
