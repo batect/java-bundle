@@ -47,6 +47,8 @@ include:
     ref: XXX # Replace with latest version from https://github.com/batect/java-bundle/releases
 ```
 
+The [Java sample project](https://github.com/batect/batect-sample-java) also demonstrates how to use this bundle.
+
 ## Development
 
 Run `./batect --list-tasks` to see a list of available tasks for this project.
