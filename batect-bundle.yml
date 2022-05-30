@@ -1,6 +1,6 @@
 containers:
   java-build-env:
-    image: adoptopenjdk:14.0.2_8-jdk-hotspot
+    image: eclipse-temurin:17.0.3_7
     volumes:
       - local: <{batect.project_directory}
         container: /code
