@@ -1,6 +1,6 @@
 containers:
   java-build-env:
-    image: eclipse-temurin:17.0.3_7-jdk
+    image: eclipse-temurin:17.0.4_8-jdk
     volumes:
       - local: <{batect.project_directory}
         container: /code
